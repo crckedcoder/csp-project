@@ -207,7 +207,7 @@ with tab5:
     st.header("Full Dataset")
     st.dataframe(df_filtered.tail(1000), use_container_width=True)
 
-# FOOTER (YOUR ORIGINAL)
+# FOOTER
 st.markdown("---")
 col1, col2, col3 = st.columns(3)
 with col1:
@@ -218,3 +218,4 @@ with col3:
     st.markdown("**🔬 Collaborative Science Project**")
 
 st.markdown("*Data Source: Valencia Regional Environmental Agency*")
+
